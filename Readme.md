@@ -4,7 +4,7 @@
 * [MainWindow.cs](./CS/MainWindow.cs) (VB: [MainWindow.vb](./VB/MainWindow.vb))
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 <!-- default file list end -->
-# How to edit WPF types in PropertyGridControl when in different cultures
+# How to edit tokinized WPF types in PropertyGridControl in non-invariant cultures
 
 
 This example demonstrates how you can configure PropertyGridControl to edit tokenized WPF types (Thickness, CornerRadius etc.).
