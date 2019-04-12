@@ -1,0 +1,22 @@
+﻿<Window x:Class="DXSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:dxprg="http://schemas.devexpress.com/winfx/2008/xaml/propertygrid"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        Width="525"
+        Height="350"
+        Title="MainWindow">
+
+    <Grid>
+        <dxprg:PropertyGridControl x:Name="pGrid"
+                                   ExpandCategoriesWhenSelectedObjectChanged="True"
+                                   SelectedObject="{Binding}"
+                                   ShowProperties="WithPropertyDefinitions">
+            <dxprg:PropertyDefinition Path="BorderThickness" />
+            <dxprg:PropertyDefinition Path="Radius" UseTypeConverterToStringConversion="True"/>
+        </dxprg:PropertyGridControl>
+    </Grid>
+
+</Window>
