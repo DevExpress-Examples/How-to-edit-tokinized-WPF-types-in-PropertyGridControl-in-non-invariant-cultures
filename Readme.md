@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.cs](./CS/MainWindow.cs) (VB: [MainWindow.vb](./VB/MainWindow.vb))
+* [MainWindow.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.vb](./VB/MainWindow.xaml.vb))
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 <!-- default file list end -->
 # How to edit tokinized WPF types in PropertyGridControl in non-invariant cultures
